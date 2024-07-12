@@ -54,7 +54,7 @@ describe("Awork UI Test Project Creation", () => {
     );
     await waitAndSendKeys(
       By.xpath("//input[@placeholder='Email']"),
-      "hello@madahian.dev"
+      process.env.EMAIL
     );
     await waitAndSendKeys(By.id("password-input"), process.env.PASSWORD);
     await waitAndClick(By.css('[data-test="login-submit-button"]'));

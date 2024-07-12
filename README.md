@@ -35,10 +35,11 @@ project-root/
 
    ```
    API_KEY=your_api_key_here
+   EMAIL=your_awork_UI_platform_email_here
    PASSWORD=your_awork_UI_platform_password_here
    ```
 
-   Replace `your_api_key_here` with the API key you copied in step 3, and `your_awork_UI_platform_password_here` with your awork account password.
+   Replace `your_api_key_here` with the API key you copied in step 3, `your_awork_UI_platform_email_here` and `your_awork_UI_platform_password_here` with your awork account email and password.
 
 ## Running Tests
 
