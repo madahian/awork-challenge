@@ -46,7 +46,6 @@ describe("Project CRUD operations", () => {
     const response = await api.post(`/projects/${projectId}/delete`, {
       deleteTimeTrackings: true,
     });
-    console.log(response.data);
     expect(response.status).toBe(204);
   });
 
